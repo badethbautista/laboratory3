@@ -10,18 +10,18 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url() ?>assets/img/favicon.ico">
     
     <!-- CSS 
     ========================= -->
    
 
     <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/css/plugins.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/css/plugins.css">
     
     <!-- Main Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/css/style.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/css/custom.css">
 
 </head>
 
@@ -37,19 +37,19 @@
             <div class="row">
                 <div class="col-12">
                     <div class="canvas_open">
-                        <a href="javascript:void(0)"><i class="ion-navicon"></i></a>
+                        <a href="<?= base_url() ?>javascript:void(0)"><i class="ion-navicon"></i></a>
                     </div>
                     <div class="Offcanvas_menu_wrapper">
                         <div class="canvas_close">
-                              <a href="javascript:void(0)"><i class="ion-android-close"></i></a>  
+                              <a href="<?= base_url() ?>javascript:void(0)"><i class="ion-android-close"></i></a>  
                         </div>
                         <div class="support_info">
-                            <p>Any Enquiry: <a href="tel:">+56985475235</a></p>
+                            <p>Any Enquiry: <a href="<?= base_url() ?>tel:">+56985475235</a></p>
                         </div>
                         <div class="top_right text-right">
                             <ul>
-                               <li><a href="my-account.html"> My Account </a></li> 
-                               <li><a href="checkout.html"> Checkout </a></li> 
+                               <li><a href="<?= base_url() ?>my-account.html"> My Account </a></li> 
+                               <li><a href="<?= base_url() ?>checkout.html"> Checkout </a></li> 
                             </ul>
                         </div> 
                         <div class="search_container">
@@ -63,35 +63,35 @@
                         
                         <div class="middel_right_info">
                             <div class="header_wishlist">
-                                <a href="wishlist.html"><img src="assets/img/user.png" alt=""></a>
+                                <a href="<?= base_url() ?>wishlist.html"><img src="assets/img/user.png" alt=""></a>
                             </div>
                             <div class="mini_cart_wrapper">
-                                <a href="javascript:void(0)"><img src="assets/img/shopping-bag.png" alt=""></a>
+                                <a href="<?= base_url() ?>javascript:void(0)"><img src="assets/img/shopping-bag.png" alt=""></a>
                                 <span class="cart_quantity">2</span>
                                 <!--mini cart-->
                                  <div class="mini_cart">
                                     <div class="cart_item">
                                        <div class="cart_img">
-                                           <a href="#"><img src="assets/img/s-product/product.jpg" alt=""></a>
+                                           <a href="<?= base_url() ?>#"><img src="assets/img/s-product/product.jpg" alt=""></a>
                                        </div>
                                         <div class="cart_info">
-                                            <a href="#">Sit voluptatem rhoncus sem lectus</a>
+                                            <a href="<?= base_url() ?>#">Sit voluptatem rhoncus sem lectus</a>
                                             <p>Qty: 1 X <span> $60.00 </span></p>    
                                         </div>
                                         <div class="cart_remove">
-                                            <a href="#"><i class="ion-android-close"></i></a>
+                                            <a href="<?= base_url() ?>#"><i class="ion-android-close"></i></a>
                                         </div>
                                     </div>
                                     <div class="cart_item">
                                        <div class="cart_img">
-                                           <a href="#"><img src="assets/img/s-product/product2.jpg" alt=""></a>
+                                           <a href="<?= base_url() ?>#"><img src="assets/img/s-product/product2.jpg" alt=""></a>
                                        </div>
                                         <div class="cart_info">
-                                            <a href="#">Natus erro at congue massa commodo</a>
+                                            <a href="<?= base_url() ?>#">Natus erro at congue massa commodo</a>
                                             <p>Qty: 1 X <span> $60.00 </span></p>   
                                         </div>
                                         <div class="cart_remove">
-                                            <a href="#"><i class="ion-android-close"></i></a>
+                                            <a href="<?= base_url() ?>#"><i class="ion-android-close"></i></a>
                                         </div>
                                     </div>
                                     <div class="mini_cart_table">
@@ -107,10 +107,10 @@
 
                                     <div class="mini_cart_footer">
                                        <div class="cart_button">
-                                            <a href="cart.html">View cart</a>
+                                            <a href="<?= base_url() ?>cart.html">View cart</a>
                                         </div>
                                         <div class="cart_button">
-                                            <a href="checkout.html">Checkout</a>
+                                            <a href="<?= base_url() ?>checkout.html">Checkout</a>
                                         </div>
 
                                     </div>
@@ -122,51 +122,51 @@
                         <div id="menu" class="text-left ">
                             <ul class="offcanvas_main_menu">
                                 <li class="menu-item-has-children active">
-                                    <a href="#">Home</a>
+                                    <a href="<?= base_url() ?>#">Home</a>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="product-details.html">product</a>
+                                    <a href="<?= base_url() ?>product-details.html">product</a>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="#">pages </a>
+                                    <a href="<?= base_url() ?>#">pages </a>
                                     <ul class="sub-menu">
-                                        <li><a href="about.html">About Us</a></li>
-										<li><a href="contact.html">contact</a></li>
-										<li><a href="privacy-policy.html">privacy policy</a></li>
-										<li><a href="faq.html">Frequently Questions</a></li>
-										<li><a href="login.html">login</a></li>
-										<li><a href="register.html">register</a></li>
-										<li><a href="forget-password.html">Forget Password</a></li>
-										<li><a href="404.html">Error 404</a></li>
-										<li><a href="cart.html">cart</a></li>
-										<li><a href="tracking.html">tracking</a></li>
-										<li><a href="checkout.html">checkout</a></li>
+                                        <li><a href="<?= base_url() ?>about.html">About Us</a></li>
+										<li><a href="<?= base_url() ?>contact.html">contact</a></li>
+										<li><a href="<?= base_url() ?>privacy-policy.html">privacy policy</a></li>
+										<li><a href="<?= base_url() ?>faq.html">Frequently Questions</a></li>
+										<li><a href="<?= base_url() ?>login.html">login</a></li>
+										<li><a href="<?= base_url() ?>register.html">register</a></li>
+										<li><a href="<?= base_url() ?>forget-password.html">Forget Password</a></li>
+										<li><a href="<?= base_url() ?>404.html">Error 404</a></li>
+										<li><a href="<?= base_url() ?>cart.html">cart</a></li>
+										<li><a href="<?= base_url() ?>tracking.html">tracking</a></li>
+										<li><a href="<?= base_url() ?>checkout.html">checkout</a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="#">blog</a>
+                                    <a href="<?= base_url() ?>#">blog</a>
                                     <ul class="sub-menu">
-                                        <li><a href="blog.html">blog</a></li>
-                                        <li><a href="blog-details.html">blog details</a></li>
+                                        <li><a href="<?= base_url() ?>blog.html">blog</a></li>
+                                        <li><a href="<?= base_url() ?>blog-details.html">blog details</a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="login.html">my account</a>
+                                    <a href="<?= base_url() ?>login.html">my account</a>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="contact.html"> Contact Us</a> 
+                                    <a href="<?= base_url() ?>contact.html"> Contact Us</a> 
                                 </li>
                             </ul>
                         </div>
 
                         <div class="Offcanvas_footer">
-                            <span><a href="#"><i class="fa fa-envelope-o"></i> info@drophunt.com</a></span>
+                            <span><a href="<?= base_url() ?>#"><i class="fa fa-envelope-o"></i> info@drophunt.com</a></span>
                             <ul>
-                                <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li class="pinterest"><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-                                <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li class="facebook"><a href="<?= base_url() ?>#"><i class="fa fa-facebook"></i></a></li>
+                                <li class="twitter"><a href="<?= base_url() ?>#"><i class="fa fa-twitter"></i></a></li>
+                                <li class="pinterest"><a href="<?= base_url() ?>#"><i class="fa fa-pinterest-p"></i></a></li>
+                                <li class="google-plus"><a href="<?= base_url() ?>#"><i class="fa fa-google-plus"></i></a></li>
+                                <li class="linkedin"><a href="<?= base_url() ?>#"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -184,14 +184,14 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6 col-md-6">
                             <div class="support_info">
-                                <p>Email: <a href="mailto:">support@drophunt.com</a></p>
+                                <p>Email: <a href="<?= base_url() ?>mailto:">support@drophunt.com</a></p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6">
                             <div class="top_right text-right">
                                 <ul>
-                                   <li><a href="my-account.html">Account</a></li> 
-                                   <li><a href="checkout.html">Checkout</a></li> 
+                                   <li><a href="<?= base_url() ?>my-account.html">Account</a></li> 
+                                   <li><a href="<?= base_url() ?>checkout.html">Checkout</a></li> 
                                 </ul>
                             </div>   
                         </div>
@@ -205,7 +205,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-3 col-md-6">
                             <div class="logo">
-                                <a href="index-2.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                <a href="<?= base_url() ?>index-2.html"><img src="assets/img/logo/logo.png" alt=""></a>
                             </div>
                         </div>
                         <div class="col-lg-9 col-md-6">
@@ -220,35 +220,35 @@
                                 </div>
                                 <div class="middel_right_info">
                                     <div class="header_wishlist">
-                                        <a href="#"><img src="assets/img/user.png" alt=""></a>
+                                        <a href="<?= base_url() ?>#"><img src="assets/img/user.png" alt=""></a>
                                     </div>
                                     <div class="mini_cart_wrapper">
-                                        <a href="javascript:void(0)"><img src="assets/img/shopping-bag.png" alt=""></a>
+                                        <a href="<?= base_url() ?>javascript:void(0)"><img src="assets/img/shopping-bag.png" alt=""></a>
                                         <span class="cart_quantity">2</span>
                                         <!--mini cart-->
                                          <div class="mini_cart">
                                             <div class="cart_item">
                                                <div class="cart_img">
-                                                   <a href="#"><img src="assets/img/s-product/product.jpg" alt=""></a>
+                                                   <a href="<?= base_url() ?>#"><img src="assets/img/s-product/product.jpg" alt=""></a>
                                                </div>
                                                 <div class="cart_info">
-                                                    <a href="#">Sit voluptatem rhoncus sem lectus</a>
+                                                    <a href="<?= base_url() ?>#">Sit voluptatem rhoncus sem lectus</a>
                                                     <p>Qty: 1 X <span> $60.00 </span></p>    
                                                 </div>
                                                 <div class="cart_remove">
-                                                    <a href="#"><i class="ion-android-close"></i></a>
+                                                    <a href="<?= base_url() ?>#"><i class="ion-android-close"></i></a>
                                                 </div>
                                             </div>
                                             <div class="cart_item">
                                                <div class="cart_img">
-                                                   <a href="#"><img src="assets/img/s-product/product2.jpg" alt=""></a>
+                                                   <a href="<?= base_url() ?>#"><img src="assets/img/s-product/product2.jpg" alt=""></a>
                                                </div>
                                                 <div class="cart_info">
-                                                    <a href="#">Natus erro at congue massa commodo</a>
+                                                    <a href="<?= base_url() ?>#">Natus erro at congue massa commodo</a>
                                                     <p>Qty: 1 X <span> $60.00 </span></p>   
                                                 </div>
                                                 <div class="cart_remove">
-                                                    <a href="#"><i class="ion-android-close"></i></a>
+                                                    <a href="<?= base_url() ?>#"><i class="ion-android-close"></i></a>
                                                 </div>
                                             </div>
                                             <div class="mini_cart_table">
@@ -264,10 +264,10 @@
 
                                             <div class="mini_cart_footer">
                                                <div class="cart_button">
-                                                    <a href="cart.html">View cart</a>
+                                                    <a href="<?= base_url() ?>cart.html">View cart</a>
                                                 </div>
                                                 <div class="cart_button">
-                                                    <a href="checkout.html">Checkout</a>
+                                                    <a href="<?= base_url() ?>checkout.html">Checkout</a>
                                                 </div>
 
                                             </div>
@@ -290,31 +290,31 @@
                             <div class="main_menu menu_position"> 
                                 <nav>  
                                     <ul>
-                                        <li><a href="index-2.html">home</a></li>
-                                        <li><a href="product-details.html">Product</a></li>
+                                        <li><a href="<?= base_url() ?>index-2.html">home</a></li>
+                                        <li><a href="<?= base_url() ?>product-details.html">Product</a></li>
                                         
-                                        <li><a class="active" href="#">pages <i class="fa fa-angle-down"></i></a>
+                                        <li><a class="active" href="<?= base_url() ?>#">pages <i class="fa fa-angle-down"></i></a>
                                             <ul class="sub_menu pages">
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="contact.html">contact</a></li>
-                                                <li><a href="privacy-policy.html">privacy policy</a></li>
-                                                <li><a href="faq.html">Frequently Questions</a></li>
-                                                <li><a href="login.html">login</a></li>
-                                                <li><a href="register.html">register</a></li>
-                                                <li><a href="forget-password.html">Forget Password</a></li>
-                                                <li><a href="404.html">Error 404</a></li>
-                                                <li><a href="cart.html">cart</a></li>
-                                                <li><a href="tracking.html">tracking</a></li>
-                                                <li><a href="checkout.html">checkout</a></li>
+                                                <li><a href="<?= base_url() ?>about.html">About Us</a></li>
+                                                <li><a href="<?= base_url() ?>contact.html">contact</a></li>
+                                                <li><a href="<?= base_url() ?>privacy-policy.html">privacy policy</a></li>
+                                                <li><a href="<?= base_url() ?>faq.html">Frequently Questions</a></li>
+                                                <li><a href="<?= base_url() ?>login.html">login</a></li>
+                                                <li><a href="<?= base_url() ?>register.html">register</a></li>
+                                                <li><a href="<?= base_url() ?>forget-password.html">Forget Password</a></li>
+                                                <li><a href="<?= base_url() ?>404.html">Error 404</a></li>
+                                                <li><a href="<?= base_url() ?>cart.html">cart</a></li>
+                                                <li><a href="<?= base_url() ?>tracking.html">tracking</a></li>
+                                                <li><a href="<?= base_url() ?>checkout.html">checkout</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="blog.html">blog<i class="fa fa-angle-down"></i></a>
+                                        <li><a href="<?= base_url() ?>blog.html">blog<i class="fa fa-angle-down"></i></a>
                                             <ul class="sub_menu pages">
-                                                <li><a href="blog.html">blog</a></li>
-                                                <li><a href="blog-details.html">blog details</a></li>
+                                                <li><a href="<?= base_url() ?>blog.html">blog</a></li>
+                                                <li><a href="<?= base_url() ?>blog-details.html">blog details</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html"> Contact Us</a></li>
+                                        <li><a href="<?= base_url() ?>contact.html"> Contact Us</a></li>
                                     </ul>  
                                 </nav> 
                             </div>
@@ -334,7 +334,7 @@
                 <div class="col-12">
                     <div class="breadcrumb_content">
                         <ul>
-                            <li><a href="index-2.html">home</a></li>
+                            <li><a href="<?= base_url() ?>index-2.html">home</a></li>
                             <li>Login</li>
                         </ul>
                     </div>
@@ -374,8 +374,8 @@
                                         <div class="single-acc-field">
                                         <button type="submit">Login</button>
                                         </div>
-                                        <a href="forget-password.html">Forget Password?</a>
-                                        <a href="register.html">Not Account Yet?</a>
+                                        <a href="<?= base_url() ?>forget-password.html">Forget Password?</a>
+                                        <a href="<?= base_url() ?>register.html">Not Account Yet?</a>
                                     </form>
                                 </div>
                             </div>
@@ -394,7 +394,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="widgets_container contact_us">
                         <div class="footer_logo">
-                            <a href="#"><img src="assets/img/logo/logo.png" alt=""></a>
+                            <a href="<?= base_url() ?>#"><img src="assets/img/logo/logo.png" alt=""></a>
                         </div>
                         <div class="footer_contact">
                             <p>John draw real poor on call my from. May she mrs furnished discourse extremely. Ask doubt noisy shade guest Lose away off why half led have near bed. At engage simple father of period others except</p>
@@ -407,12 +407,12 @@
                         <h3>Information</h3>
                         <div class="footer_menu">
                             <ul>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="blog.html">Delivery Information</a></li>
-                                <li><a href="contact.html">Privacy Policy</a></li>
-                                <li><a href="services.html">Terms & Conditions</a></li>
-                                <li><a href="#">Returns</a></li>
-                                <li><a href="#">Gift Certificates</a></li>
+                                <li><a href="<?= base_url() ?>about.html">About Us</a></li>
+                                <li><a href="<?= base_url() ?>blog.html">Delivery Information</a></li>
+                                <li><a href="<?= base_url() ?>contact.html">Privacy Policy</a></li>
+                                <li><a href="<?= base_url() ?>services.html">Terms & Conditions</a></li>
+                                <li><a href="<?= base_url() ?>#">Returns</a></li>
+                                <li><a href="<?= base_url() ?>#">Gift Certificates</a></li>
                             </ul>
                         </div>
                     </div>
@@ -422,12 +422,12 @@
                         <h3>My Account</h3>
                         <div class="footer_menu">
                             <ul>
-                                <li><a href="#">My Account</a></li>
-                                <li><a href="#">Order History</a></li>
-                                <li><a href="wishlist.html">Wish List</a></li>
-                                <li><a href="#">Newsletter</a></li>
-                                <li><a href="#">Affiliate</a></li>
-                                <li><a href="faq.html">International Orders</a></li>
+                                <li><a href="<?= base_url() ?>#">My Account</a></li>
+                                <li><a href="<?= base_url() ?>#">Order History</a></li>
+                                <li><a href="<?= base_url() ?>wishlist.html">Wish List</a></li>
+                                <li><a href="<?= base_url() ?>#">Newsletter</a></li>
+                                <li><a href="<?= base_url() ?>#">Affiliate</a></li>
+                                <li><a href="<?= base_url() ?>faq.html">International Orders</a></li>
                             </ul>
                         </div>
                     </div>
@@ -437,11 +437,11 @@
                         <h3>Follow Us</h3>
                         <div class="footer_social_link">
                             <ul>
-                                <li><a class="facebook" href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                                <li><a class="twitter" href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                <li><a class="instagram" href="#" title="instagram"><i class="fa fa-instagram"></i></a></li>
-                                <li><a class="linkedin" href="#" title="linkedin"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a class="rss" href="#" title="rss"><i class="fa fa-rss"></i></a></li>
+                                <li><a class="facebook" href="<?= base_url() ?>#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="twitter" href="<?= base_url() ?>#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                <li><a class="instagram" href="<?= base_url() ?>#" title="instagram"><i class="fa fa-instagram"></i></a></li>
+                                <li><a class="linkedin" href="<?= base_url() ?>#" title="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a class="rss" href="<?= base_url() ?>#" title="rss"><i class="fa fa-rss"></i></a></li>
                             </ul>
                         </div>
                         <div class="subscribe_form">
@@ -467,12 +467,12 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-6">
                         <div class="copyright_area">
-                            <p> <a href="templateshub.net">Templates Hub</a></p>
+                            <p> <a href="<?= base_url() ?>templateshub.net">Templates Hub</a></p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <div class="footer_payment text-right">
-                            <a href="#"><img src="assets/img/icon/payment.png" alt=""></a>
+                            <a href="<?= base_url() ?>#"><img src="assets/img/icon/payment.png" alt=""></a>
                         </div>
                     </div>
                 </div>

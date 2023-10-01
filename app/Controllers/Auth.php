@@ -6,6 +6,10 @@ use App\Controllers\BaseController;
 
 class Auth extends BaseController
 {
+    public function product_details()
+    {
+      return view('product_details');
+    }
     public function index()
     {
         //
@@ -15,3 +19,4 @@ class Auth extends BaseController
         return view('login');
     }
 }
+
