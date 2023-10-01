@@ -5,5 +5,5 @@
 <?= $this->include('include/slider') ?>
 <?= $this->include('include/trendprod') ?>
 
-
+<?= $this->include('include/footer') ?>
 <?= $this->include('include/end') ?>
